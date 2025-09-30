@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='240' height='80' viewBox='0 0 240 80'>
+  <rect width='240' height='80' rx='12' fill='#ffffff'/>
+  <path d='M24 54c10-20 26-20 36 0' stroke='#0d6efd' stroke-width='6' opacity='0.2' fill='none'/>
+  <text x='70' y='48' font-family='Segoe UI, Roboto, Arial, sans-serif' font-weight='700' font-size='20' fill='#0d6efd'>Aurobindo</text>
+</svg>

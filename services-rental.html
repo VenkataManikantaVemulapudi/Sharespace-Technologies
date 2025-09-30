@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rental Services | Sharespace Technologies Pvt Ltd</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/jpeg" href="assets/img/hearder.JPG" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/img/hearder.JPG" alt="Sharespace Logo"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMain" aria-controls="navbarsMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="services-fms.html">FMS Services</a></li>
+              <li><a class="dropdown-item" href="services-amc.html">AMC Services</a></li>
+              <li><a class="dropdown-item" href="services-rental.html">Rental Services</a></li>
+              <li><a class="dropdown-item" href="services-camc.html">CAMC Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="products.html" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item" href="products-oem.html">OEM Products</a></li>
+              <li><a class="dropdown-item" href="products-security.html">Security & Surveillance</a></li>
+              <li><a class="dropdown-item" href="products-network.html">Network Materials</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="services-hero position-relative overflow-hidden">
+    <div class="services-hero-bg"></div>
+    <div class="hero-overlay">
+      <div class="container">
+        <h1 class="display-5 fw-bold mb-2">Rental Services</h1>
+        <p class="lead max-w-3xl mx-auto">Flexible IT rentals for projects, events, and training programs.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+        <div class="col reveal-up">
+          <div class="card product-card product-card-lg h-100">
+            <div class="ratio ratio-4x3 product-media"><img src="assets/img/carousel/1.jpg" alt="Laptop Rentals" loading="lazy"></div>
+            <div class="card-body">
+              <h5 class="card-title mb-1">Laptop Rentals</h5>
+              <p class="card-text text-secondary">Short to long-term rental plans for teams and events.</p>
+              <div class="product-extra text-secondary small mt-2">Wide model choices, preloaded software, and on-site support.</div>
+              <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3 product-toggle" data-toggle="product-more" aria-expanded="false" data-alt="View Less">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal-up">
+          <div class="card product-card product-card-lg h-100">
+            <div class="ratio ratio-4x3 product-media"><img src="assets/img/carousel/4.jpg" alt="Server Rentals" loading="lazy"></div>
+            <div class="card-body">
+              <h5 class="card-title mb-1">Server Rentals</h5>
+              <p class="card-text text-secondary">High-performance servers for labs and POCs.</p>
+              <div class="product-extra text-secondary small mt-2">Compute/storage configurations, delivery, and setup assistance.</div>
+              <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3 product-toggle" data-toggle="product-more" aria-expanded="false" data-alt="View Less">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col reveal-up">
+          <div class="card product-card product-card-lg h-100">
+            <div class="ratio ratio-4x3 product-media"><img src="assets/img/carousel/3.jpg" alt="Peripheral Rentals" loading="lazy"></div>
+            <div class="card-body">
+              <h5 class="card-title mb-1">Peripheral Rentals</h5>
+              <p class="card-text text-secondary">Monitors, projectors, printers, and accessories.</p>
+              <div class="product-extra text-secondary small mt-2">Bulk delivery, spares, and quick replacement options.</div>
+              <a href="#" class="btn btn-outline-primary btn-sm rounded-pill mt-3 product-toggle" data-toggle="product-more" aria-expanded="false" data-alt="View Less">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="app-footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

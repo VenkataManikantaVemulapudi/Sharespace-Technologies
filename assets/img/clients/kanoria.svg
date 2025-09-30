@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='220' height='80' viewBox='0 0 220 80'>
+  <rect width='220' height='80' rx='12' fill='#ffffff'/>
+  <circle cx='40' cy='40' r='20' fill='#0d6efd' opacity='0.15'/>
+  <text x='70' y='48' font-family='Segoe UI, Roboto, Arial, sans-serif' font-weight='700' font-size='20' fill='#0d6efd'>Kanoria</text>
+</svg>

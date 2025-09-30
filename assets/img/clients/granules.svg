@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='240' height='80' viewBox='0 0 240 80'>
+  <rect width='240' height='80' rx='12' fill='#ffffff'/>
+  <rect x='26' y='22' width='36' height='36' rx='18' fill='#0d6efd' opacity='0.12'/>
+  <text x='70' y='48' font-family='Segoe UI, Roboto, Arial, sans-serif' font-weight='700' font-size='20' fill='#0d6efd'>Granules</text>
+</svg>

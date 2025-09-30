@@ -1,0 +1,5 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='260' height='80' viewBox='0 0 260 80'>
+  <rect width='260' height='80' rx='12' fill='#ffffff'/>
+  <path d='M28 40h32' stroke='#0d6efd' stroke-width='8' opacity='0.2'/>
+  <text x='70' y='48' font-family='Segoe UI, Roboto, Arial, sans-serif' font-weight='700' font-size='20' fill='#0d6efd'>Bharat Biotech</text>
+</svg>

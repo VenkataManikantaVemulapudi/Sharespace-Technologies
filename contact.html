@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | Sharespace Technologies Pvt Ltd</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/jpeg" href="assets/img/hearder.JPG" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <img src="assets/img/hearder.JPG" alt="Sharespace Logo"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMain" aria-controls="navbarsMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarsMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="services-fms.html">FMS Services</a></li>
+              <li><a class="dropdown-item" href="services-amc.html">AMC Services</a></li>
+              <li><a class="dropdown-item" href="services-rental.html">Rental Services</a></li>
+              <li><a class="dropdown-item" href="services-camc.html">CAMC Services</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="products.html" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
+            <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+              <li><a class="dropdown-item" href="products-oem.html">OEM Products</a></li>
+              <li><a class="dropdown-item" href="products-security.html">Security & Surveillance</a></li>
+              <li><a class="dropdown-item" href="products-network.html">Network Materials</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="clients.html">Clients</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="contact-hero position-relative">
+    <div class="contact-hero-bg"></div>
+    <div class="hero-overlay">
+      <div class="container">
+        <h1 class="display-5 fw-bold">Need Help? Contact Us</h1>
+        <p class="lead max-w-3xl mx-auto">Tell us what you need—our team will reach out with the right solution.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <div class="p-4 bg-white rounded-2xl shadow-soft reveal-up">
+            <form id="contactForm" class="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="col-12">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" required>
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="How can we help?" required></textarea>
+                </div>
+                <div class="col-12 d-grid d-sm-flex gap-2 contact-submit">
+                  <button type="submit" class="btn btn-primary btn-lg px-4">Send Message</button>
+                  <div id="formAlert" class="alert alert-success py-2 px-3 d-none mb-0 align-self-center" role="alert">Thanks! We'll get back to you shortly.</div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="office-card rounded-2xl shadow-soft reveal-up p-4 mb-4">
+            <h5 class="mb-2">Corporate Office</h5>
+            <ul class="list-unstyled small mb-0 contact-list">
+              <li><i class="bi bi-geo-alt"></i><span>#1-76, Rajannapalem, Atchutapuram, Anakapalli</span></li>
+              <li><i class="bi bi-telephone"></i><a href="tel:85407616"> 85--407616</a></li>
+              <li><i class="bi bi-envelope"></i><a href="mailto:info@sharespace.com"> info@sharespace.com</a></li>
+            </ul>
+          </div>
+          <div class="office-card rounded-2xl shadow-soft reveal-up p-4 mb-4">
+            <h5 class="mb-2">Branch Office</h5>
+            <ul class="list-unstyled small mb-0 contact-list">
+              <li><i class="bi bi-geo-alt"></i><span># 65-6-705, Beside Gousia Masjid, New Gajuwaka Vegetable Market, Gajuwaka -530026</span></li>
+              <li><i class="bi bi-telephone"></i><a href="tel:85407616"> 85--407616</a></li>
+              <li><i class="bi bi-envelope"></i><a href="mailto:support@sharespace.com"> support@sharespace.com</a></li>
+            </ul>
+          </div>
+          <div class="office-card rounded-2xl shadow-soft reveal-up p-3">
+            <div class="d-flex align-items-center justify-content-between">
+              <span class="fw-semibold">Connect with us</span>
+              <div class="d-flex gap-2 social">
+                <a href="#" aria-label="Facebook" title="Facebook" class="social-icon"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Instagram" title="Instagram" class="social-icon"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn" title="LinkedIn" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                <a href="#" aria-label="WhatsApp" title="WhatsApp" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Maps: Corporate and Branch -->
+      <div class="row g-4 mt-1">
+        <div class="col-12 col-lg-6">
+          <div class="ratio ratio-16x9 rounded-2 overflow-hidden shadow-soft reveal-up">
+            <iframe title="Corporate Office Map" src="https://www.google.com/maps?q=1-76%2C%20Rajannapalem%2C%20Atchutapuram%2C%20Anakapalli&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="ratio ratio-16x9 rounded-2 overflow-hidden shadow-soft reveal-up">
+            <iframe title="Branch Office Map" src="https://www.google.com/maps?q=65-6-705%2C%20Beside%20Gousia%20Masjid%2C%20New%20Gajuwaka%20Vegetable%20Market%2C%20Gajuwaka%20530026&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <section class="mt-5 reveal-up" aria-label="FAQ">
+        <h2 class="section-title h4">Frequently Asked Questions</h2>
+        <div class="accordion" id="contactFaq">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q1h"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true" aria-controls="q1">What services do you provide?</button></h2>
+            <div id="q1" class="accordion-collapse collapse show" aria-labelledby="q1h" data-bs-parent="#contactFaq">
+              <div class="accordion-body">We specialize in AMC, FMS, Rentals, CCTV, networking, and end-to-end IT solutions.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q2h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false" aria-controls="q2">How fast can you respond?</button></h2>
+            <div id="q2" class="accordion-collapse collapse" aria-labelledby="q2h" data-bs-parent="#contactFaq">
+              <div class="accordion-body">Our support team aims to acknowledge within a few hours and schedule service based on urgency and SLAs.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q3h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false" aria-controls="q3">Do you support on-site and remote?</button></h2>
+            <div id="q3" class="accordion-collapse collapse" aria-labelledby="q3h" data-bs-parent="#contactFaq">
+              <div class="accordion-body">Yes, we offer both on-site visits and secure remote assistance tailored to the issue.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="q4h"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q4" aria-expanded="false" aria-controls="q4">How can I get a quote?</button></h2>
+            <div id="q4" class="accordion-collapse collapse" aria-labelledby="q4h" data-bs-parent="#contactFaq">
+              <div class="accordion-body">Send your requirements through the form above, and we will prepare a tailored quote.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Quick Contact (mobile) -->
+      <div class="d-md-none mt-4 d-flex gap-2 justify-content-center">
+        <a class="btn btn-primary btn-lg flex-fill" href="tel:85407616"><i class="bi bi-telephone"></i> Call Now</a>
+        <a class="btn btn-outline-primary btn-lg flex-fill" href="mailto:info@sharespace.com"><i class="bi bi-envelope"></i> Email Us</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <div id="app-footer"></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
